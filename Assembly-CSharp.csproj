@@ -36,12 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CopyPosition.cs" />
      <Compile Include="Assets\Scripts\AddPlayerControlledVellocity.cs" />
+     <Compile Include="Assets\Scripts\RestartCollision.cs" />
      <Compile Include="Assets\Scripts\AddConstantVelocity.cs" />
      <Compile Include="Assets\Scripts\AddPlayerControlledVellocity2.cs" />
      <Compile Include="Assets\Scripts\AddJump.cs" />
-     <Compile Include="Assets\Scripts\CopyPosition.cs" />
-     <Compile Include="Assets\Scripts\RestartCollision.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnCollision.cs" />
+     <Compile Include="Assets\Scripts\NextLevelonCollision.cs" />
+     <Compile Include="Assets\Scripts\AccelerateTowards.cs" />
+     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.1.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
